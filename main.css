@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: font-paramore;
+    src: url(./font/paramore-album/ParamoreAlbum.ttf);
+}
+
+body {
+    background-color: #5c5c5c;
+    font-family: 'Roboto Mono', monospace;
+    color: #9b9b9b;
+}
+
+input, textarea {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+header {
+    padding: 16px 0;
+    background-color: #000;
+    color: 	#9b9b9b;
+    font-family: 'font-paramore';
+    font-size: 40px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 30px;
+
+}
+
+header nav li a{
+    color: 	#9b9b9b;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    margin-bottom: 8px;
+}
+
+section hr {
+    border: 3px solid #000;
+}
+
+#cover {
+    height: 450px;
+    box-shadow: 5px 5px 20px #000;
+    border-radius: 8px;
+}
+
+section .cover-albuns img {
+    height: 190px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section img {
+    margin-right: 32px;
+    margin-bottom: 8px;
+}
+
+section .cover-albuns {
+    display: inline-block;
+}
+
+.cover-albuns img,
+.shows-list img {
+    margin: 5px;
+    box-shadow: 5px 5px 20px #000;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    backface-visibility: hidden;
+}
+
+.cover-albuns img:hover{
+    box-shadow: 0 0 2px 1px #ff6200;
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+section .shows-list img {
+    height: 350px;
+    width: 300px;
+    margin-right: 6px;
+    backface-visibility: hidden;
+}
+
+.shows-list img:hover {
+    box-shadow: 0 0 1px 1px #ff6200;
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #000;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #ff6200;
+    color: #000;
+}
+
+input:focus, textarea:focus{
+    outline-color: #ff6200;
+}
+
+footer {
+    background-color: #000;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+
+
+/*.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+#cover {
+    height: 450px;
+}
+
+section img {
+    height: 200px;
+}*/
